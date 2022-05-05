@@ -1,0 +1,239 @@
+.main .ruleta-titulo h1{
+/* background-image: url(../img/Rectangle\ 128.png); */
+background: #6C1A1A;
+/* background: no-repeat; */
+text-align: center;
+padding: 50px;
+background-image: url(../img/fondoti\ \(1\).jpg);
+font-size: 70px;
+/* padding: 10px; */
+color: #fff;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-weight: bold;
+}
+
+
+.power_controls
+{
+    margin-right:70px;
+}
+
+.html5_logo
+{
+    margin-left:70px;
+}
+
+.ruleta{
+  margin: auto;
+}
+.gana{
+  background: #6C1A1A;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+.container{
+  background-image: url(../img/fonru.jpg);
+}
+
+/* .flecha{
+  position: absolute;
+  left: 50.59%;
+  right: 45.56%;
+  top: 38.88%;
+  bottom: 57.85%;
+  background: #6C1A1A;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+} */
+
+button{
+  background: #6C1A1A;
+  border-radius: 68.9457px;
+ color: #fff;
+ padding: 10px;
+ width: 250px;
+ border:none;
+ font-size: 30px;
+ transition: all 1s;
+
+}
+button:hover{
+  background: #000000;
+}
+.flecha-ruleta img{
+     transform: rotate(-180deg);
+}
+/* Other misc styles */
+.margin_bottom
+{
+    margin-bottom: 5px;
+}
+.intentos p{
+  font-weight: bold;
+  color: #fff;
+}
+
+.contendedor-ruleta{
+  background: #FFFFFF;
+  border: 0.689457px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 3.44728px 2.75783px 2.75783px rgba(0, 0, 0, 0.25);
+  width: 30%;
+  transition: all 0.25s;
+}
+
+.contendedor-ruleta p{
+  color: #6C1A1A;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contendedor-ruleta img{
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+}
+.adicional-ruleta{
+  background: #6C1A1A;
+}
+.adicional-ruleta h2{
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.contendedor-ruleta .ver{
+  margin-top: 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #6C1A1A;
+  box-shadow: 3.44728px 2.75783px 2.75783px rgba(0, 0, 0, 0.25);
+  padding: 8px;
+  text-align: center;
+  transition: all 0.25s;
+
+}
+
+.contendedor-ruleta:hover{
+transform: translateY(-15px);
+
+  box-shadow: 0 12px 16px rgba(0, 0, 0, .2);
+}
+
+
+.contendedor-ruleta .ver:hover{
+ background: #000000;
+
+}
+
+
+/* MODALES */
+.modal-contenido {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    /* background-clip: padding-box; */
+    box-shadow:inset 0 0 0 1px #6C1A1A;
+    /* border-radius: .3rem; */
+    outline: 0;
+}
+.modal-header{
+  text-align: center;
+  border: 0px;
+  /* background-color: #C72400; */
+  border-bottom: 2px solid #6C1A1A;
+
+}
+
+.modal-title{
+  color: #6C1A1A;
+  text-align: center;
+  font-weight: bold;
+  /* background-color: blue; */
+margin: auto;
+}
+
+.modal-contenido{
+  /* background: chartreuse; */
+  padding: 20px 100px;
+}
+
+.modal-title i{
+ color: #00C508;
+ margin-right: 10px;
+}
+
+.modal hr{
+background: #6C1A1A;
+padding: 2px;
+opacity: 1;
+}
+
+.img-modal{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nombre-producto-modal{
+  color: #6C1A1A;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.precio-modal{
+  font-weight: bold;
+  font-size: 24px
+}
+
+.descripcion-modal ul {
+  list-style: none;
+   /* text-align: left; */
+  /* float: left; */
+  list-style: none;
+  text-align: center;
+
+}
+
+.descripcion-modal ul li span{
+color: #6C1A1A;
+font-weight: bold;
+
+}
+
+
+.row div .cantidad{
+  color: #6C1A1A;
+  font-weight: bold;
+}
+
+.premio p{
+  background: #000;
+  color: #fff;
+  width: 50%;
+  padding: 10px;
+text-align: center;
+font-weight: bold;
+font-size: 36px;
+}
+
+.mensaje p{
+  color: #6C1A1A;
+font-size: 24px;
+font-weight: bold;
+}
+
+.volver a{
+  background: #6C1A1A;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+
+}
